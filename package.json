@@ -1,7 +1,7 @@
 {
   "name": "filename-regex",
   "description": "Regular expression for matching file names, with or without extension.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/regexps/filename-regex",
   "author": {
     "name": "Jon Schlinkert",
@@ -26,19 +26,16 @@
     "test": "mocha -R spec"
   },
   "keywords": [
-    "base",
     "basename",
     "expression",
     "file",
     "filename",
     "filepath",
-    "fs",
     "match",
     "name",
     "path",
     "regex",
     "regexp",
-    "regular",
-    "test"
+    "regular"
   ]
 }
