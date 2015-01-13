@@ -2,6 +2,14 @@
 
 > Regular expression for matching file names, with or without extension.
 
+**Matches**:
+
+- filename with extension 
+- basename without extension
+- multiple extensions (e.g. `.min.js`)
+- "last" extension (e.g. `.js`)
+- extension without dot (e.g. `js`)
+
 ## Install with [npm](npmjs.org)
 
 ```bash
@@ -28,7 +36,6 @@ Match groups:
  - `[2]` => multiple extensions
  - `[3]` => extension with dot
  - `[4]` => extension without dot
-
 
 ## Run tests
 
