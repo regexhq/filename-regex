@@ -1,12 +1,10 @@
 /*!
  * filename-regex <https://github.com/regexps/filename-regex>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014-2015, Jon Schlinkert
  * Licensed under the MIT license.
  */
 
-'use strict';
-
 module.exports = function filenameRegex() {
-  return /([^\\\/]*?[^\\\/]*?)(\.([^\\\/]*)|$)$/;
+  return /([^\\\/]*?[^\\\/]*?)((\.([^\\\/.]*))*)$/;
 };
