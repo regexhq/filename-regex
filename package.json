@@ -30,5 +30,21 @@
     "regex",
     "regexp",
     "regular expression"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
