@@ -32,7 +32,8 @@
     "regular expression"
   ],
   "devDependencies": {
-    "gulp-format-md": "^0.1.12"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
   },
   "verb": {
     "toc": false,
