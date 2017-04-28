@@ -1,7 +1,7 @@
 {
   "name": "filename-regex",
   "description": "Regular expression for matching file names, with or without extension.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/regexhq/filename-regex",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "regexhq/filename-regex",
